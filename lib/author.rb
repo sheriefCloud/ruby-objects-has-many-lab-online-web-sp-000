@@ -15,7 +15,7 @@ class Author
     post.author.posts << post
   end
 
-  def add_post_by_name(post_name) #where is name???
+  def add_post_by_title(post_name) #where is name???
     s = Post.new(post_name)
     self.add_post(s)
   end
